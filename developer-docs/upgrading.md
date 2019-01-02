@@ -26,8 +26,9 @@ Ensure that you have Python installed on the Cassandra machine
 1. SSH to the database server where you want to take a backup
 2. Run the command `git clone https://github.com/project-sunbird/sunbird-devops`
 3. `cd sunbird-devops`
-4. Checkout the latest release tag `git checkout tags/release-1.10.1 -b release-1.10.1`
-5. `cd deploy`
+4. Run the command 'git pull' and 'git fetch --all --tags --prune' respectively (Required In case of repository already exist)
+5. Checkout the latest release tag `git checkout tags/release-1.10.1 -b release-1.10.1`
+6. `cd deploy`
 
 ### Backup Cassandra
 
